@@ -32,3 +32,13 @@ Now you anly need to run the command:
 Now in your browser enter:
 
 [localhost](http://localhost:8000)
+
+## Creating a Database
+
+For this example, it was created a database in PostgreSQL, so, it will be necessary to create first in the root folder a .env file with the next structure:
+
+```env
+DATABASE_NAME=db_name
+DATABASE_USER=db_user
+DATABASE_PASSWORD=db_password
+```
